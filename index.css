@@ -1,0 +1,55 @@
+body{
+
+    background-image: url('corona.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 !important;
+    background-size: 100% cover!important;
+    overflow:hidden;
+    display: block;
+    padding: 0px;
+}
+
+form{
+     
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.submit{
+    
+    color: black;
+    background-color:#7FFFD4;
+    font-family: Calibri;
+    width: 100px;
+}
+
+input{
+
+    font-family: Calibri;
+    width:150px;
+    height: 25px;
+}
+
+h4{
+
+   font-family: Calibri;
+   margin-top: 40px;
+}
+
+#res
+{
+    background-color: blue;
+    color: white;
+    height: 200px;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    display: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}

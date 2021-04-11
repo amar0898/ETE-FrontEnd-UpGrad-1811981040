@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Covid19 Tracker</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="div-container">
+        <!-- code for country, from date, end date input field -->
+        <form>
+            <input type="text" id="country-name" placeholder="Enter your country">
+            <input type="date" id="fromDate">
+            <input type="date" id="endDate"> 
+            <button class="submit" onClick="showData()">Submit</button>
+        </form>
+        </div>
+        
+        <!-- code for displaying corona results -->
+        <div id="res">
+            <h4 id="top">Confirmed Cases:<span id="confirmed"></span> </h4>
+            <h4>Active Cases: <span id="active"></span></h4>
+            <h4 id="bottom">Death Cases: <span id="deaths"></span> </h4>
+        </div>
+    
+    <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
